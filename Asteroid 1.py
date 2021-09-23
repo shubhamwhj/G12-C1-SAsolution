@@ -3,7 +3,7 @@ import pygame
 pygame.init()
 # creating game window and title
 screen = pygame.display.set_mode((400,600))
-pygame.display.set_caption("Draw Rectangle")
+pygame.display.set_caption("Asteroid")
 # Display game window 
 background_image = pygame.image.load("bg2.jpg").convert()
 #.blit() is how you copy the contents of one screen to another.
